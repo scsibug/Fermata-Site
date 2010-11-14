@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="13.849439"
+     inkscape:cx="52.512301"
      inkscape:cy="580.25232"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -38,8 +38,8 @@
      inkscape:snap-global="true"
      inkscape:window-width="998"
      inkscape:window-height="752"
-     inkscape:window-x="274"
-     inkscape:window-y="14"
+     inkscape:window-x="372"
+     inkscape:window-y="19"
      inkscape:window-maximized="0">
     <sodipodi:guide
        position="0,0"
@@ -88,21 +88,24 @@
        width="720"
        height="180"
        x="-280"
-       y="352.36218" />
+       y="352.36218"
+       inkscape:export-filename="/Users/scsibug/Documents/WorkingRepository/fermata-site/img/airmail_border.png"
+       inkscape:export-xdpi="24.846865"
+       inkscape:export-ydpi="24.846865" />
     <path
-       style="fill:#cf0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0;fill-opacity:1"
+       style="fill:#cf0000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0;fill-opacity:1;opacity:0.333"
        d="m -280,532.36218 180,-180 180,0 -180,180 z"
        id="path6068"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/Users/scsibug/airmail_border.png"
+       inkscape:export-filename="/Users/scsibug/Documents/WorkingRepository/fermata-site/img/airmail_border.png"
        inkscape:export-xdpi="24.846865"
        inkscape:export-ydpi="24.846865" />
     <path
        inkscape:connector-curvature="0"
        id="path6070"
        d="m 82,532.36218 180,-180 180,0 -180,180 z"
-       style="fill:#0000de;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0;fill-opacity:1"
-       inkscape:export-filename="/Users/scsibug/airmail_border.png"
+       style="fill:#0000de;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0;fill-opacity:1;opacity:0.333"
+       inkscape:export-filename="/Users/scsibug/Documents/WorkingRepository/fermata-site/img/airmail_border.png"
        inkscape:export-xdpi="24.846865"
        inkscape:export-ydpi="24.846865" />
   </g>
