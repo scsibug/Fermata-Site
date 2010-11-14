@@ -4,33 +4,33 @@
  */
 
 body { 
-  background:#336299;
   padding:1em 0 1.5em 0; 
-  background:#336299 url(/img/smooth_bg_gradient.gif) 0 -10px repeat-x; */
+  background: #f6f5e7 url(/img/airmail_border.png) 0 -10px repeat-x;
 }
 #header { 
-  height:130px; 
+  height:90px; 
   margin:0 auto; 
-  padding:4px 0 6px 0; 
+  padding:30px 0 6px 0; 
   position:relative;
   width:790px;
   font-size:32px; 
   font-style:italic; 
 }
 #title { 
-  color:#fff; 
+  color:#666; 
   margin:0; 
   padding:0; 
   text-align:left; 
 }
 #main { 
+  background: #f6f5e7;
   border-right:2px solid #222;
   border-bottom:2px solid #222; 
   margin:0 auto; 
   width:788px; 
 }
 #main_content { 
-  background:#fff; 
+  background: #f6f5e7;
   border:2px solid #ccc; 
   padding:12px 17px 17px 17px; 
 }
@@ -39,7 +39,6 @@ body {
   padding-top:1em; 
 }
 #main_content .container { 
-  background:#fff; 
 }
 #statement { 
   color:#333; 
@@ -84,8 +83,7 @@ body {
   border:3px solid #ccc; 
 }
 #gallery .item a.caption { 
-  background:#ccc; 
-  color:#444; 
+  color:#444;
   padding:3px 6px; 
   position:absolute;
   top:0; 
@@ -105,6 +103,11 @@ body {
 ul li { 
   list-style-image:url(/img/bullet.png); 
 }
+
+.box { 
+  background:#f6f5e7; 
+ }
+
 h2 { 
   border-bottom:1px solid #ccc; 
   color:#333; 
@@ -115,4 +118,13 @@ h2 {
 }
 .container { 
   width:750px; 
+}
+
+#bottom { 
+background:#f6f5e7 url(/img/airmail_border.png) 0 -10px repeat-x;
+position: fixed;
+left: 0;
+right: 0;
+height: 30px;
+bottom: 0;
 }
