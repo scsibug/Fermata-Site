@@ -5,7 +5,7 @@
 
 body { 
   padding:1em 0 1.5em 0; 
-  background: #f6f5e7 url(/img/airmail_border.png) 0 -10px repeat-x;
+  background: #f6f5e7;
 }
 #header { 
   height:90px; 
@@ -125,11 +125,12 @@ h2 {
   width:750px; 
 }
 
-#bottom { 
-background:#f6f5e7 url(/img/airmail_border.png) 0 -10px repeat-x;
-position: fixed;
-left: 0;
-right: 0;
-height: 30px;
-bottom: 0;
+#top, #bottom {
+  background:#f6f5e7 url(/img/airmail_border.png) 0 -10px repeat-x;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 30px;
 }
+#top {top: 0;}
+#bottom {bottom: 0;}
