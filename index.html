@@ -7,7 +7,18 @@
   <!--[if lt IE 8]>
       <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection" />
       <![endif]-->
-  <link rel="stylesheet" href="/css/fermata.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="css/fermata.css" type="text/css" media="screen, projection">
+  <link type="text/css" media="screen" rel="stylesheet" href="css/colorbox.css" />
+<!-- JQuery and plugins -->
+  <script src="js/jquery-1.4.2.min.js"></script>
+  <script src="js/jquery.colorbox-min.js"></script>
+<!-- Colorbox config -->
+  <script>
+    $(document).ready(function(){
+      $("a[rel='colorbox']").colorbox();
+    });
+  </script>
+
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -81,40 +92,52 @@
 	  </div>
 	  <div class="column span-9 append-1">
 	    <span class="item">
-	      <img src="screenshots/homepage_344x350.png" alt="Homepage screenshot" width="344" height="350">
-	      <a href="screenshots/homepage.png" class="caption">Homepage</a>
+	      <a rel="colorbox" href="screenshots/homepage.png">
+	        <img src="screenshots/homepage_344x350.png" alt="Homepage screenshot" width="344" height="350">
+              <span class="caption">Homepage</span>
+              </a>
 	    </span>
 	  </div>
 	  <div class="column span-9 last">
 	    <span class="item">
+	      <a rel="colorbox" href="screenshots/attachment_list.png">
 	      <img src="screenshots/attachment_list_344x350.png" alt="Attachment List" width="344" height="350">
-	      <a href="screenshots/attachment_list.png" class="caption">Attachment List</a>
+              <span class="caption">Attachment List</span>
+              </a>
 	    </span>
 	  </div>
 
 	  <div class="column span-9 append-1">
 	    <span class="item">
-	      <img src="screenshots/message_headers_344x350.png" alt="Message headers screenshot" width="344" height="350">
-	      <a href="screenshots/message_headers.png" class="caption">Message Headers</a>
+	      <a rel="colorbox" href="screenshots/message_headers.png">
+	        <img src="screenshots/message_headers_344x350.png" alt="Message headers screenshot" width="344" height="350">
+                <span class="caption">Message Headers</span>
+              </a>
 	    </span>
 	  </div>
 	  <div class="column span-9 last">
 	    <span class="item">
-	      <img src="screenshots/message_list_344x350.png" alt="Message List" width="344" height="350">
-	      <a href="screenshots/message_list.png" class="caption">Message List</a>
+	      <a rel="colorbox" href="screenshots/message_list.png">
+	        <img src="screenshots/message_list_344x350.png" alt="Message List" width="344" height="350">
+                <span class="caption">Message List</span>
+              </a>
 	    </span>
 	  </div>
 
 	  <div class="column span-9 append-1">
 	    <span class="item">
+	      <a rel="colorbox" href="screenshots/rss_messages.png">
 	      <img src="screenshots/rss_messages_344x350.png" alt="RSS messages screenshot" width="344" height="350">
-	      <a href="screenshots/rss_messages.png" class="caption">RSS Feed</a>
+              <span class="caption">RSS Feed</span>
+              </a>
 	    </span>
 	  </div>
 	  <div class="column span-9 last">
 	    <span class="item">
+	      <a rel="colorbox" href="screenshots/search_results.png">
 	      <img src="screenshots/search_results_344x350.png" alt="Search Results" width="344" height="350">
-	      <a href="screenshots/search_results.png" class="caption">Search Results</a>
+              <span class="caption">Search Results</span>
+              </a>
 	    </span>
 	  </div>
 

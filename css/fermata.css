@@ -86,7 +86,7 @@ body {
 #gallery .item img { 
   border:3px solid #ccc; 
 }
-#gallery .item a.caption { 
+#gallery .item span.caption { 
   background: #CCC;
   color:#444;
   padding:3px 6px; 
@@ -95,7 +95,7 @@ body {
   right:0; 
   text-decoration:none; 
 }
-#gallery .item a.caption:hover { 
+#gallery .item span.caption:hover { 
   color:#000; 
 }
 #credit { 
